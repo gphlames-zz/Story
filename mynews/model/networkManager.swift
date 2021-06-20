@@ -11,7 +11,7 @@ import SwiftUI
 class networkManager: ObservableObject{
     @Published var coll = [collected]()
     //@Published var colll = [collectedPlus]()
-    let urlcollected = ["https://newsapi.org/v2/top-headlines?country=us&apiKey=1a715655ff6e41ffb653d7f0c092e036"]
+    let urlcollected = ["https://newsapi.org/v2/top-headlines?country=us&apiKey="]
     
     func fetchData(){
         for i in urlcollected{
